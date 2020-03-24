@@ -1,5 +1,5 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma
+def speak_to_grandma (talk)
   if talk == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
   elsif talk == talk.upcase
@@ -8,7 +8,7 @@ def speak_to_grandma
   end
 end
 
-talk("hello")
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
